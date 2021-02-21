@@ -1,0 +1,16 @@
+{
+    "name": "Name",
+    "color": "Color",
+    "weight": "Weight (in <weight_str>)",
+    "currentWeight": "Current Weight (in <weight_str>)",
+    "material": "Material",
+    "diameter": "Diameter (in <length_str>)",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "nozzleTemp": "Nozzle Temp (in <temp_str>)",
+    "bedTemp": "Bed Temp (in <temp_str>)",
+    "addDate": "Add Date",
+    "comment": "Comment",
+    "error": "ERROR",
+    "image": "Image URL"
+}
