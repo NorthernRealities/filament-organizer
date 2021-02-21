@@ -27,6 +27,7 @@ Software:
 
 ## Screenshots
 ![webpage](https://github.com/szalovszky/filament-organizer/blob/main/.images/webapp.png?raw=true)
+![render](https://github.com/szalovszky/filament-organizer/blob/main/.images/render.png?raw=true)
 
 ## FAQ:
 * The webpage only shows 'Filament Organizer', what do I do? Please make sure you've set up your client correctly and if nothing works, go to the GitHub Issues page, and create a new issue.
