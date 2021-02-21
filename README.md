@@ -1,9 +1,9 @@
-# Filament Organizer
+# Automatic Filament Organizer System
 Have you ever found yourself disorganized, because you have different filament rolls and don't know every bit of information about them off the top of your head? Well, here's the solution!
 
 Introducing: Filament Organizer
 
-The program can automatically detect which filament are you using and displays some important details about it, either on the website or a display. You only need a webserver and ESP8266 with an NFC Reader.
+The spool holder can automatically detect which filament are you using and displays some important details about it (e.g. current weight, material, brand, age), either on the website or the display. You only need a webserver and ESP8266 with some modules.
 
 ![header2](https://github.com/szalovszky/filament-organizer/blob/main/.images/header2.png?raw=true)
 
