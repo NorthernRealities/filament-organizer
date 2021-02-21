@@ -1,5 +1,5 @@
 ## REQUIREMENTS
-- PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: mysqli, curl, mbstring
+- PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite, (Optional) mysqli
 - Webserver (e.g. NGINX, Apache)
 - (Optional) MySQL Server (with full rights to a specified database)
 
