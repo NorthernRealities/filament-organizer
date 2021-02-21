@@ -15,6 +15,11 @@ The program can automatically detect which filament are you using and displays s
 ## Requirements
 Hardware:
 * ESP8266
+* RC522 NFC module
+* HX711 ADC module + load cell
+* SHT30 wemos shield
+* Wemos D1 mini
+* SD1306 I2C 128x32 OLED display
 
 Software:
 * PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite
