@@ -5,7 +5,7 @@
 
 $apptitle = "Filament Organizer";
 $version = "v1.0";
-$rolling = false;
+$rolling = true;
 
 //////////////////
 //// Database ////
@@ -20,9 +20,10 @@ if(!$sqlite) {
     // Database to be used
     $db = "prusa";
     // User with priviliges to the DB
-    $user = "testuser";
+    $user = "user";
     $pass = "pass";
 } else {
+    // Don't touch this if you don't need to.
     $dbfile = "../private/database.db";
 }
 
