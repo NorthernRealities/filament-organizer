@@ -15,6 +15,7 @@ The program can automatically detect which filament are you using and displays s
 ## Requirements
 Hardware:
 * ESP8266
+
 Software:
 * PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite
 * A webserver (e.g. NGINX, Apache)
