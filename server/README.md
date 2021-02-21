@@ -6,6 +6,5 @@
 ## USAGE
 1) Copy the files to your server.
 2) You'll need to provide your own webserver pointed to the /public folder.
-3) A MySQL server is required, with a database and a user with full access to said database.
-4) Configure MySQL and other settings in public/settings.php
-5) Start either start.sh or start.bat depending on your operating system.
+3) (Optional) A MySQL server is required, with a database and a user with full access to said database.
+4) (Optional) Configure MySQL and other settings in public/settings.php
