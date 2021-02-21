@@ -269,7 +269,7 @@ if(!$rolling) {
 <?php
 }
 ?>
-  var lang = JSON.parse(`<?php echo returnLanguage($unit_weight_str,$unit_length_str,$unit_temp_str); ?>`);
+  var lang = JSON.parse(`<?php echo returnLanguage($unit_weight_str,$unit_diameter_str,$unit_temp_str); ?>`);
 <?php
 if(isset($catResult['id'])) {
 ?>
