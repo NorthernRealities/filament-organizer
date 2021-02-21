@@ -23,7 +23,6 @@ if(!$sqlite) {
     $user = "user";
     $pass = "pass";
 } else {
-    // Don't touch this if you don't need to.
     $dbfile = "../private/database.db";
 }
 
@@ -46,8 +45,8 @@ $unit_temp = "°C";
 $unit_temp_str = "Celsius";
 $unit_humidity = "%";
 $unit_humidity_str = "%";
-$unit_length = "cm";
-$unit_length_str = "Centimeters";
+$unit_diameter = "mm";
+$unit_diameter_str = "Milimeters";
 
 $lang_profileActive = "Active Profile";
 $lang_profileUnknown = "Unknown Profiles";
