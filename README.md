@@ -25,6 +25,9 @@ Software:
 * PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite
 * A webserver (e.g. NGINX, Apache)
 
+## Screenshots
+![webpage](https://github.com/szalovszky/filament-organizer/blob/main/.images/webapp.png?raw=true)
+
 ## FAQ:
 * The webpage only shows 'Filament Organizer', what do I do? Please make sure you've set up your client correctly and if nothing works, go to the GitHub Issues page, and create a new issue.
 * X or Y is not working as intended, what do I do? Go to the GitHub Issues page, and create a new issue.
