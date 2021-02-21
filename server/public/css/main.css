@@ -1,0 +1,16 @@
+body {
+background-color: #101010;
+color: #ffffff;
+overflow-x: hidden;
+}
+h1 {
+color: #ffffff;
+text-align: center;
+}
+footer {
+color: #ffffff;
+}
+a {
+color: 30a7cf;
+}
+*{font-family: "Roboto", sans-serif;}
