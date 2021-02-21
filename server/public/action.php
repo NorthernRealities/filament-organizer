@@ -396,7 +396,7 @@ switch($action) {
 			if(!isset($val)) {
 				print_r($lang_err_desync);
 			} else {
-				print_r('['.$val['id'].'] '.$val['name'] . ' - '.$val['weight'].$unit_weight.'/'.$val['currentWeight'].$unit_weight."\nHUM: ".$row['humidity'].$unit_humidity." | TEMP: ".$row['temp'].$unit_temp);
+				print_r($val['manufacturer']."\n".($val['weight']*1000)."g\n".$val['id']."\n".$val['name']);
 			}
 		}
 		break;
