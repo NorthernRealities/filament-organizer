@@ -1,0 +1,17 @@
+.active {
+    width: 100%; display: table;
+}
+
+.active-image {
+    width: 30%;
+    float: left;
+}
+
+.active-content {
+    padding-left: calc(30% + 8px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
