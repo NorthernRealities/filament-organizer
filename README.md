@@ -5,6 +5,8 @@ Introducing: Filament Organizer
 
 The program can automatically detect which filament are you using and displays some important details about it, either on the website or a display. You only need a webserver and ESP8266 with an NFC Reader.
 
+![header2](https://github.com/szalovszky/filament-organizer/blob/main/.images/header2.png?raw=true)
+
 ## Some key features
 * Automatic detection system
 * Custom naming, images and other metadata (color, material, diameter, manufacturer, model, nozzle temperature, bed temperature, comment)
@@ -27,7 +29,7 @@ Software:
 
 ## Screenshots
 ![webpage](https://github.com/szalovszky/filament-organizer/blob/main/.images/webapp.png?raw=true)
-![render](https://github.com/szalovszky/filament-organizer/blob/main/.images/render.png?raw=true)
+![render2](https://github.com/szalovszky/filament-organizer/blob/main/.images/render2.png?raw=true)
 
 ## FAQ:
 * The webpage only shows 'Filament Organizer', what do I do? Please make sure you've set up your client correctly and if nothing works, go to the GitHub Issues page, and create a new issue.
