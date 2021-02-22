@@ -1,5 +1,5 @@
 # Automatic Filament Organizer System
-Have you ever found yourself disorganized, because you have different filament rolls and don't know every bit of information about them off the top of your head? Well, here's the solution!
+Have you ever found yourself disorganized, because you have a bunch of filament rolls and don't know every bit of information about them off the top of your head? Well, here's the solution!
 
 Introducing: Filament Organizer
 
