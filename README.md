@@ -3,7 +3,7 @@ Have you ever found yourself disorganized, because you have different filament r
 
 Introducing: Filament Organizer
 
-The spool holder can automatically detect which filament are you using and displays some important details about it (e.g. current weight, material, brand, age), either on the website or the display. You only need a webserver and ESP8266 with some modules.
+The spool holder can automatically detect which filament are you using and displays some important details about it (e.g. current weight, material, brand, age), either on the website or the display. You only need a webserver and ESP8266 with some modules. Currently there are STLs only for the Ender 3s (the current version contains the original Ender 3 spool holder), but in the future a spool holder will be designed that is universally compatible with other printers.
 
 ![header2](https://github.com/szalovszky/filament-organizer/blob/main/.images/header2.png?raw=true)
 
@@ -14,6 +14,10 @@ The spool holder can automatically detect which filament are you using and displ
 * Display current temperature, weight and humidity
 * And the best: It's all Open-Source.
 
+## How does it work?
+When you first want to setup a new filament you need to place an NFC Tag on the roll.
+You place your filament roll onto the holder, the NFC Reader detects which roll you're using, the ESP8266 sends information about it to the server. You can save new filaments to the database using the wonderful web interface (under development).
+
 ## Requirements
 Hardware:
 * ESP8266
@@ -22,6 +26,7 @@ Hardware:
 * SHT30 wemos shield
 * Wemos D1 mini
 * SD1306 I2C 128x32 OLED display
+* NFC Tag stickers
 
 Software:
 * PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite
