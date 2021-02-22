@@ -1,4 +1,4 @@
-## Client-side made by https://github.com/Botond08
+### Client-side made by https://github.com/Botond08
 ## USAGE
 Wiring:
 * HX711:
