@@ -1,4 +1,4 @@
-Will files upload soon.
+Will upload files soon.
 ## USAGE
 Wiring:
 * HX711:
