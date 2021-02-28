@@ -34,7 +34,7 @@ There are two ways the service can return information.
     "nozzleTemp": 250,
     "bedTemp": 75,
     "comment": "Purchased on 2021-02-03"
-	}
+  }
 ]
 ```
 * For currently active profile (the only difference is it doesn't return some useless information for the active profile section on the frontend):
@@ -42,7 +42,7 @@ There are two ways the service can return information.
 	* Example response:
 ```json
 [
-{
+  {
     "color": "Ultramarine Blue",
     "material": "PETG",
     "diameter": 1.75,
