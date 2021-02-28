@@ -3,7 +3,7 @@ Have you ever found yourself disorganized, because you have a bunch of filament 
 
 Introducing: Filament Organizer
 
-The spool holder can automatically detect which filament are you using and displays some important details about it (e.g. current weight, material, brand, age), either on the website or the display. You only need a webserver and ESP8266 with some modules. Currently there are STLs only for the Ender 3s (the current version contains the original Ender 3 spool holder), but in the future a spool holder will be designed that is universally compatible with other printers.
+The spool holder can automatically detect which filament are you using and displays some important details about it (e.g. current weight, material, brand, age), either on the website or the display. You only need a webserver and an ESP8266 with some extra modules. Currently there are .STLs for the Ender 3S (the current version contains the original Ender 3 spool holder), but in the future a spool holder will be designed that is universally compatible with other printers.
 
 ![header2](https://github.com/szalovszky/filament-organizer/blob/main/.images/header2.png?raw=true)
 
