@@ -19,11 +19,9 @@ Other tasks will be handled by the API.
 There are two ways the service can return information.
 
 * For listing all profiles:
-	* ```
-http://<server-address>/action.php?action=2&id=<human-readable-id>
-```
+	* `http://<server-address>/action.php?action=2&id=<human-readable-id>`
 	* Example response:
-	```json
+```json
 [
   {
     "name": "Ultramarine01",
@@ -40,11 +38,9 @@ http://<server-address>/action.php?action=2&id=<human-readable-id>
 ]
 ```
 * For currently active profile (the only difference is it doesn't return some useless information for the active profile section on the frontend):
-	* ```
-http://<server-address>/action.php?action=21&id=<human-readable-id>
-```
+	* `http://<server-address>/action.php?action=21&id=<human-readable-id>`
 	* Example response:
-	```json
+```json
 [
 {
     "color": "Ultramarine Blue",
