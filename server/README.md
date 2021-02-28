@@ -1,3 +1,6 @@
+# Database Server
+If you would like to make your own frontend, navigate to the ./docs folder for documentation.
+
 ## REQUIREMENTS
 - PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite, (Optional) mysqli
 - Webserver (e.g. NGINX, Apache)
