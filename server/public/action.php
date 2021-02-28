@@ -39,7 +39,7 @@ $result = $db->querySingle($sql);
 }
 switch($action) {
 	case 0:
-		// [DEPRECATED/NOT SUPPORTED] Insert item into catalog if it doesn't already exist (Now replaced by Action#6)
+		// [DEPRECATED/NOT SUPPORTED/DON'T USE] Insert item into catalog if it doesn't already exist (Now replaced by Action#6)
 		if(!$rolling) {
 		if(!$sqlite) {
 		if(!isset($_GET["nfc"])) {
@@ -144,7 +144,7 @@ switch($action) {
 		}
 		break;
 	case 21:
-		// Return info about currently active profile
+		// Return info about profile
 		if(!isset($_GET["id"])) {
 			exit($lang_err_undefined);
 		} else {
