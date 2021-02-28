@@ -20,12 +20,9 @@ You place your filament roll onto the holder, the NFC Reader detects which roll 
 
 ## Requirements
 Hardware:
-* ESP8266
-* RC522 NFC module
-* HX711 ADC module + load cell
-* SHT30 wemos shield
-* Wemos D1 mini
-* SD1306 I2C 128x32 OLED display
+* Microcontroller
+* NFC reader module
+* (Optional) Display
 * NFC Tag stickers
 
 Software:
