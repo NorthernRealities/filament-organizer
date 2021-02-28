@@ -32,9 +32,9 @@ Software:
 * PHP (was created on 7.4 but should work with newer versions aswell), with these extensions loaded: curl, mbstring, sqlite3, pdo_sqlite
 * A webserver (e.g. NGINX, Apache)
 
-## Screenshots
+## Pictures
 ![webpage](https://github.com/szalovszky/filament-organizer/blob/main/.images/webapp.png?raw=true)
-![render2](https://github.com/szalovszky/filament-organizer/blob/main/.images/render2.png?raw=true)
+More pictures in the ./images directory.
 
 ## FAQ:
 * The webpage only shows 'Filament Organizer', what do I do? Please make sure you've set up your client correctly and if nothing works, go to the GitHub Issues page, and create a new issue.
